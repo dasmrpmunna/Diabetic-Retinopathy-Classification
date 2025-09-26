@@ -78,7 +78,7 @@ diabetic-retinopathy-detection/
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/dasmrpmunna/AI-Skin-Disease-Classification
 cd diabetic-retinopathy-detection
 ```
 
@@ -119,7 +119,7 @@ npm install
 
 # Copy environment file and configure
 cp .env.example .env
-# Edit .env file with your API URL (default: http://localhost:5000)
+# Edit .env file with your API URL (default: http://localhost:5001)
 ```
 
 ### 4. Model Placement
@@ -138,7 +138,7 @@ Place your trained `model.keras` file in the `backend/` directory. The model sho
 cd backend
 python app.py
 ```
-The backend will run on `http://localhost:5000`
+The backend will run on `http://localhost:5001`
 
 ### Start Frontend Development Server
 ```bash
@@ -153,14 +153,14 @@ The frontend will run on `http://localhost:5173`
 ```env
 MODEL_PATH=model.keras
 API_HOST=0.0.0.0
-API_PORT=5000
+API_PORT=5001
 DEBUG=True
 CORS_ORIGINS=http://localhost:5173,http://localhost:3000
 ```
 
 ### Frontend Configuration (.env)
 ```env
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=http://localhost:5001
 ```
 
 ## 📡 API Endpoints

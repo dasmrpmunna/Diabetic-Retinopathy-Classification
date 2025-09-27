@@ -157,10 +157,11 @@ const DetectionTool = () => {
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent"></div>
         <img 
-          src="/images/homepage1.jpg" 
-          alt="Diabetic retinopathy fundus examination"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+            src="/images/homepage1.jpg" 
+            alt="Diabetic retinopathy fundus examination"
+            className="absolute inset-0 w-full h-full object-cover opacity-50"
+          />
+
         <div className="relative z-10 px-8 py-12">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">

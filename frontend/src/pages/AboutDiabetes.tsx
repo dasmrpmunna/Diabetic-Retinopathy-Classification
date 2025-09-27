@@ -255,12 +255,12 @@ const AboutDiabetes = () => {
                 <img 
                   src="/images/images4.png" 
                   alt="Diabetic retinopathy prevention through monitoring"
-                  className="w-full h-35 object-cover rounded-lg shadow-md"
+                  className="w-full h-35 object-cover opacity-70 rounded-lg shadow-md"
                 />
                 <img 
                   src="/images/images33.png" 
                   alt="Retinal screening for diabetic complications"
-                  className="w-full h-35 object-cover rounded-lg shadow-md"
+                  className="w-full h-35 object-cover opacity-70 rounded-lg shadow-md"
                 />
               </div>
             </div>
@@ -313,9 +313,9 @@ const AboutDiabetes = () => {
             
             <div className="p-4">
               <img 
-                src="/images/images33.png" 
+                src="/images/understanding diabetic-retinopathy.jpg" 
                 alt="Diabetic complications awareness"
-                className="w-full h-32 object-cover rounded-lg shadow-md"
+                className="w-full h-32 object-cover opacity-70 rounded-lg shadow-md"
               />
             </div>
           </div>

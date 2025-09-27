@@ -1,6 +1,6 @@
 ## 👥 Contributors
 
-We welcome contributions from the community! This project exists thanks to all the people who contribute.
+### We welcome contributions from the community! This project exists thanks to all the people who contribute.
 
 ### How to Contribute
 

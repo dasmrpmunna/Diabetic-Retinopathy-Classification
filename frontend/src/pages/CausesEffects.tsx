@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, Target, AlertTriangle, TrendingUp, Heart, Brain, Eye, FileKey as Kidney, Shield, Activity } from 'lucide-react';
+import { Zap, Target, TriangleAlert as AlertTriangle, TrendingUp, Heart, Brain, Eye, FileKey as Kidney, Shield, Activity } from 'lucide-react';
 
 const CausesEffects = () => {
   const primaryCauses = [
@@ -132,13 +132,7 @@ const CausesEffects = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-red-900 via-red-800 to-orange-900 rounded-2xl overflow-hidden mb-8">
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <img 
-          src="/images/ophthalmologist-consultation.jpg" 
-          alt="Diabetic retinopathy examination and causes research"
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
-        />
-        <div className="relative z-10 p-8">
+        <div className="p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Diabetes: Causes & Effects</h1>
             <p className="text-xl text-red-100 leading-relaxed mb-6">
@@ -186,15 +180,6 @@ const CausesEffects = () => {
                     </div>
                   </div>
                 </div>
-                {index === 0 && (
-                  <div className="px-6 pb-6">
-                    <img 
-                      src="/images/retinal-examination-1.jpg" 
-                      alt="Diabetic retinopathy pathophysiology research"
-                      className="w-full h-32 object-cover rounded-lg shadow-md"
-                    />
-                  </div>
-                )}
               </div>
             );
           })}
@@ -223,13 +208,6 @@ const CausesEffects = () => {
                 </div>
               ))}
             </div>
-          </div>
-          <div className="p-6 bg-gray-50">
-            <img 
-              src="/images/retinal-screening-1.jpg" 
-              alt="Risk factors for diabetic retinopathy development"
-              className="w-full h-40 object-cover rounded-lg shadow-md"
-            />
           </div>
         </div>
       </div>
@@ -264,13 +242,6 @@ const CausesEffects = () => {
                 If you experience multiple symptoms, consult a healthcare provider for proper evaluation.
               </p>
             </div>
-          </div>
-          <div className="p-6 bg-gray-50">
-            <img 
-              src="/images/ophthalmologist-consultation.jpg" 
-              alt="Early diabetic retinopathy symptoms and detection"
-              className="w-full h-32 object-cover rounded-lg shadow-md"
-            />
           </div>
         </div>
 
@@ -312,25 +283,12 @@ const CausesEffects = () => {
               })}
             </div>
           </div>
-          <div className="p-6 bg-gray-50">
-            <img 
-              src="/images/retinal-examination-1.jpg" 
-              alt="Advanced diabetic retinopathy complications"
-              className="w-full h-32 object-cover rounded-lg shadow-md"
-            />
-          </div>
         </div>
       </div>
 
       {/* Prevention Tips */}
       <div className="mt-12 relative bg-gradient-to-r from-green-900 via-green-800 to-teal-900 rounded-2xl overflow-hidden">
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <img 
-          src="/images/retinal-screening-1.jpg" 
-          alt="Diabetic retinopathy prevention and management strategies"
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
-        />
-        <div className="relative z-10 p-8">
+        <div className="p-8">
           <h2 className="text-3xl font-bold mb-6 text-white">Prevention & Management</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white bg-opacity-10 rounded-lg p-4 backdrop-blur-sm">
@@ -361,7 +319,7 @@ const CausesEffects = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
   );
